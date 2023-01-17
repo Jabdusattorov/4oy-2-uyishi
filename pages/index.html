@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Page</title>
+    <link rel="stylesheet" href="../styles/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="cont">
+        <div class="container-1">
+            <h1>my<span>memories</span></h1>
+
+            <button class="createbtn">CREATE THEME</button>
+
+            <div class="like" style="margin-top: 100px;">
+                <i class="fa-regular fa-heart"></i>
+                Liked memories
+            </div>
+            <div class="like">
+                <i class="fa-solid fa-heart-crack"></i>
+                Disliked
+            </div>
+        </div>
+    
+        <div class="container-2">
+            <nav>
+                <input type="search" placeholder="write theme">
+    
+                <button>
+                    <a href="../pages/Login.html">
+                        LOG OUT
+                    </a>
+                </button>
+            </nav>
+    
+            <section>
+            </section>
+        </div>
+    </div>
+    <div class="modal">
+        <i class="fa-solid fa-x" id="cancel"></i>
+        <div class="info">
+            <input type="text" placeholder="enter title" id="m-title">
+        <input type="text" placeholder="enter img url" id="m-img">
+        <input type="text" placeholder="enter description" id="m-desc">
+        </div>
+        <div class="buttons">
+            <button class="create">Create</button>
+            <button class="cancel">Cancel</button>
+        </div>
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+</html>
